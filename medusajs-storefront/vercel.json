@@ -1,0 +1,14 @@
+{
+  "buildCommand": "next build",
+  "env": {
+    "NEXT_PUBLIC_MEDUSA_BACKEND_URL": "https://backend-production-d3ab.up.railway.app",
+    "NEXT_PUBLIC_BASE_URL": "https://floridasbackroom.com",
+    "NEXT_PUBLIC_DEFAULT_REGION": "us",
+    "NEXT_PUBLIC_SEARCH_ENDPOINT": "https://meilisearch-production-d026.up.railway.app",
+    "NEXT_PUBLIC_SEARCH_API_KEY": "e40558857860b2a424e394be9b4ff626d6df84852d3149d73dbba3f330929786",
+    "NEXT_PUBLIC_INDEX_NAME": "products",
+    "REVALIDATE_SECRET": "supersecret",
+    "NEXT_PUBLIC_MEDUSA_PUBLISHABLE_KEY": "pk_01JBR7D8C9MXQP5F6V2KTNHGZA",
+    "SKIP_ENV_VALIDATION": "true"
+  }
+}
