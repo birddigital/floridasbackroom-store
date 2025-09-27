@@ -7,6 +7,7 @@ const store = require('./store.config.json')
 const nextConfig = withStoreConfig({
   features: store.features,
   reactStrictMode: true,
+  output: 'standalone',
   images: {
     remotePatterns: [
       {
@@ -41,7 +42,16 @@ const nextConfig = withStoreConfig({
         protocol: 'https',
         hostname: 'medusa-server-testing.s3.us-east-1.amazonaws.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'bucket-production-dd10.up.railway.app',
+      },
     ],
+  },
+  experimental: {
+    serverActions: {
+      bodySizeLimit: '2mb',
+    },
   },
 })
 
