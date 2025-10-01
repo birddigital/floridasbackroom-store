@@ -7,6 +7,8 @@ MedusaJS 2.0 e-commerce platform for Florida's Backroom.
 - `/medusajs-storefront` - Next.js storefront
 
 ## Deployment
-- Backend: Railway
+- Backend: Railway (https://backend-production-d3ab.up.railway.app)
 - Frontend: Vercel
 - Domain: floridasbackroom.com
+
+Last updated: October 1, 2025
